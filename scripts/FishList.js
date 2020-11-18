@@ -6,7 +6,7 @@ export const FishList = () => {
 
     contentElement.innerHTML += 
     `<article class="fishList">
-        All the fish go here!
+        
     </article>`
 
 let fishHTMLRepresentations = ""
