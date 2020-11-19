@@ -1,30 +1,42 @@
 const fishCollection = [
+  {
+    name: "name: Schmitty",
+    species: "species: Koi",
+    food: "food: Your soul",
+    location: "found at: Lake Wallenpaupak",
+    length: "length: 24",
+    image: "koi.jpg"
+  },
+  {
+    name: "name: Squirrelly Pete",
+    species: "species: Catfish",
+    food: "food: Mousefish",
+    location: "found at: The darkest corners of my nightmares",
+    length: "length: 78",
+    image: "catfish.jpg"
+  },
+
     {
-      name: "Dirty Mike",
-      species: "Goldfish",
-      food: "flakes",
-      location: "Kroger Isle 4",
-      length: 3,
+      name: "name: Dirty Mike",
+      species: "species: Goldfish",
+      food: "food: yes",
+      location: "found at: Kroger Isle 4",
+      length: "length: 3",
       image: "goldfish.jpg"
     },
+ 
     {
-      name: "Squirrelly Pete",
-      species: "Catfish",
-      food: "Mousefish",
-      location: "The darkest corners of my nightmares",
-      length: 78,
-      image: "catfish.jpg"
-    },
-    {
-      name: "Schmitty",
-      species: "Koi",
-      food: "Your soul",
-      location: "Lake Wallenpaupak",
-      length: 24,
-      image: "koi.jpg"
+      name: "name: Slick Willis",
+      species: "species: Cuddle Fish",
+      food: "food: Twizzlers",
+      location: "found at: Sid's Lab",
+      length: "length: 12",
+      image: "spider.jpg"
     }
 ]
   
   export const useFish = () => {
     return fishCollection.slice()
   }
+
+
